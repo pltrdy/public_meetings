@@ -17,8 +17,37 @@ cd public_meetings
 pip install .
 ```
 
-## Usage
-`public_meetings` utility functions from a single entry point:
+## About
+This corpus contains meetings, made of pairs of (a) automatic transcriptions from audio recordings, (b) meeting reports written by a professional.   
+Both texts are way too long to be reasonibly processed (e.g. by neural models) so we worked on the automatic segmentation and alignment to get suitable pairs for meeting summarization training/evaluation.
+
+We present a public extract of our data in this repository. The segmentation/alignment can be found at <https://github.com/pltrdy/autoalign>.
+
+## Reading the data
+We provide 22 aligned meetings that can be loaded easily:
+```
+import public_meetings
+
+meetings = public_meetings.load_meetings()
+```
+Meetings are identified by a hash e.g.:
+```
+meeting = meetings['81540075987931464031780e046c0d8f']
+```
+Each meetings has been automatically aligned first `meeting['initial']` then post-edited by a human annotator, `meeting['final']`. Each alignment has a transcription (aka. `ctm`) and a report side (aka. `doc`) that contains segments (usually several sentences).
+```
+meeting['final']['doc'][i]['text']      # text of the i-th document segment
+meeting['final']['doc'][i]['id']        # id of the i-th document segment
+
+meeting['final']['ctm'][j]['text']      # text of the j-th transcription segment
+meeting['final']['ctm'][j]['id']        # id of the j-th transcription segment
+meeting['final']['ctm'][j]['aligned']   # doc segment id corresponding to the j-th transcription segment
+```
+
+
+
+## Commands
+`public_meetings` provides utility functions from a single entry point:
 ```
 public_meetings [command]
 ```

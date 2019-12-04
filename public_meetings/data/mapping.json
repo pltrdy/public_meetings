@@ -1,0 +1,152 @@
+[
+  {
+    "dir": "<TO_BE_PROGRAMMATICALLY_OVERWRITTEN>",
+    "mapping": [
+      {
+        "doc": "4b926f221e5fb8eac2c24b0a7fca651b.docx",
+        "ctm": [
+          "4b926f221e5fb8eac2c24b0a7fca651b.0.ctm"
+        ]
+      },
+      {
+        "doc": "d7ac991e2ca046c0a010fbfdcda345c8.docx",
+        "ctm": [
+          "d7ac991e2ca046c0a010fbfdcda345c8.0.ctm",
+          "d7ac991e2ca046c0a010fbfdcda345c8.1.ctm"
+        ]
+      },
+      {
+        "doc": "5860bd5928985249ce967af710051e06.docx",
+        "ctm": [
+          "5860bd5928985249ce967af710051e06.0.ctm"
+        ]
+      },
+      {
+        "doc": "839e920248e5f6688415d44583f3141e.docx",
+        "ctm": [
+          "839e920248e5f6688415d44583f3141e.0.ctm"
+        ]
+      },
+      {
+        "doc": "744c8e99930f2ded12d54c61f0378232.docx",
+        "ctm": [
+          "744c8e99930f2ded12d54c61f0378232.0.ctm"
+        ]
+      },
+      {
+        "doc": "0b9ec6f049e68d4a35fae75792e2a84e.docx",
+        "ctm": [
+          "0b9ec6f049e68d4a35fae75792e2a84e.0.ctm"
+        ]
+      },
+      {
+        "doc": "686239f069621dada25c3408f1867d66.docx",
+        "ctm": [
+          "686239f069621dada25c3408f1867d66.0.ctm"
+        ]
+      },
+      {
+        "doc": "e2ac01ecaf5d0c4abfa9d43176fc0ac1.docx",
+        "ctm": [
+          "e2ac01ecaf5d0c4abfa9d43176fc0ac1.0.ctm"
+        ]
+      },
+      {
+        "doc": "78ea37f9bf10bee29355e823669c8133.docx",
+        "ctm": [
+          "78ea37f9bf10bee29355e823669c8133.0.ctm",
+          "78ea37f9bf10bee29355e823669c8133.1.ctm",
+          "78ea37f9bf10bee29355e823669c8133.2.ctm"
+        ]
+      },
+      {
+        "doc": "5062c3c4a0b24dd047cd611a4974e4bc.docx",
+        "ctm": [
+          "5062c3c4a0b24dd047cd611a4974e4bc.0.ctm"
+        ]
+      },
+      {
+        "doc": "383fa9579fa610be4a0d1ff531f01006.docx",
+        "ctm": [
+          "383fa9579fa610be4a0d1ff531f01006.0.ctm",
+          "383fa9579fa610be4a0d1ff531f01006.1.ctm",
+          "383fa9579fa610be4a0d1ff531f01006.2.ctm",
+          "383fa9579fa610be4a0d1ff531f01006.3.ctm",
+          "383fa9579fa610be4a0d1ff531f01006.4.ctm",
+          "383fa9579fa610be4a0d1ff531f01006.5.ctm"
+        ]
+      },
+      {
+        "doc": "70f6b388b5f90c5edf4e11a61ea9978f.docx",
+        "ctm": [
+          "70f6b388b5f90c5edf4e11a61ea9978f.0.ctm"
+        ]
+      },
+      {
+        "doc": "199073d27fc61f6a76cb1f9c1d977aa6.docx",
+        "ctm": [
+          "199073d27fc61f6a76cb1f9c1d977aa6.0.ctm",
+          "199073d27fc61f6a76cb1f9c1d977aa6.1.ctm",
+          "199073d27fc61f6a76cb1f9c1d977aa6.2.ctm"
+        ]
+      },
+      {
+        "doc": "ddf1b004fecd24772ef7cdbcf2f929b1.docx",
+        "ctm": [
+          "ddf1b004fecd24772ef7cdbcf2f929b1.0.ctm"
+        ]
+      },
+      {
+        "doc": "2f3f95e2eb2b4532169904b186a8cdf0.docx",
+        "ctm": [
+          "2f3f95e2eb2b4532169904b186a8cdf0.0.ctm"
+        ]
+      },
+      {
+        "doc": "74172c3acd8663916ed864285a681334.docx",
+        "ctm": [
+          "74172c3acd8663916ed864285a681334.0.ctm"
+        ]
+      },
+      {
+        "doc": "abad12ab7c7c35a2ece141d3cabe83fc.docx",
+        "ctm": [
+          "abad12ab7c7c35a2ece141d3cabe83fc.0.ctm"
+        ]
+      },
+      {
+        "doc": "81540075987931464031780e046c0d8f.docx",
+        "ctm": [
+          "81540075987931464031780e046c0d8f.0.ctm"
+        ]
+      },
+      {
+        "doc": "b78722729506f09ba2a2cf9fae5d291e.docx",
+        "ctm": [
+          "b78722729506f09ba2a2cf9fae5d291e.0.ctm",
+          "b78722729506f09ba2a2cf9fae5d291e.1.ctm",
+          "b78722729506f09ba2a2cf9fae5d291e.2.ctm"
+        ]
+      },
+      {
+        "doc": "398ab01c54479bcd841b467dadca1222.docx",
+        "ctm": [
+          "398ab01c54479bcd841b467dadca1222.0.ctm",
+          "398ab01c54479bcd841b467dadca1222.1.ctm"
+        ]
+      },
+      {
+        "doc": "e61c5b036f82adc9d2fdf464c28656ea.docx",
+        "ctm": [
+          "e61c5b036f82adc9d2fdf464c28656ea.0.ctm"
+        ]
+      },
+      {
+        "doc": "2130e27aed45abb9e7182295fc940cff.docx",
+        "ctm": [
+          "2130e27aed45abb9e7182295fc940cff.0.ctm"
+        ]
+      }
+    ]
+  }
+]

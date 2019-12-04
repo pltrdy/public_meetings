@@ -11,7 +11,7 @@ setup(
     description='A corpus of public meetings',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    version='0.1.0rc2',
+    version='0.1.0rc3',
     packages=find_packages(),
     project_urls={
         "Documentation": "http://github.com/pltrdy/public_meetings",
@@ -21,7 +21,11 @@ setup(
         "numpy",
     ],
     package_data={
-        'public_meetings': ['data/*.aligned.pckl'],
+        'public_meetings': [
+            'data/*.aligned.pckl',
+            'data/*.docx',
+            'data/*.ctm',
+        ],
     },
     entry_points={
         "console_scripts": [
