@@ -37,7 +37,8 @@ def aligned_to_ctm_text(algned_path, out_path):
         print("==========", file=out_ref)
 
     for ctm in final_ctms:
-        if ctm["aligned"] == '' or ctm["aligned"] == '-1' or ctm["aligned"] == -1:
+        if (ctm["aligned"] == '' or ctm["aligned"] == '-1'
+                or ctm["aligned"] == -1):
             if positive_only:
                 continue
         if prev_aligned is not None and ctm["aligned"] != prev_aligned:

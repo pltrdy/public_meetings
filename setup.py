@@ -11,7 +11,7 @@ setup(
     description='A corpus of public meetings',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    version='0.1.0rc1',
+    version='0.1.0rc2',
     packages=find_packages(),
     project_urls={
         "Documentation": "http://github.com/pltrdy/public_meetings",

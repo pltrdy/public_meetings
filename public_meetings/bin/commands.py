@@ -15,12 +15,12 @@ class PublicMeetingsCommands(object):
         parser = argparse.ArgumentParser(
             description="Utilities for the `public_meetings` corpus"
         )
-        
-        command_list = [ 
+
+        command_list = [
             func for func in dir(PublicMeetingsCommands)
             if callable(getattr(PublicMeetingsCommands, func))
-            and not "__" in func
-        ]  
+            and "__" not in func
+        ]
         parser.add_argument('command', help='Subcommand to run',
                             choices=command_list)
         args = parser.parse_args(sys.argv[1:2])
@@ -39,6 +39,7 @@ class PublicMeetingsCommands(object):
 
     def segmentation(self):
         public_meetings.meetings_to_segmentation.main()
+
 
 def main():
     PublicMeetingsCommands()
