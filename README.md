@@ -1,7 +1,17 @@
 # `public_meetings`: a meeting corpus of aligned pairs of transcriptions and reports.
-**paper review ongoing, contact <pltrdy@gmail.com> for more information**
-
-*see also https://github.com/pltrdy/autoalign*
+* Paper: [Align then Summarize: Automatic Alignment Methods for Summarization Corpus Creation](https://arxiv.org/abs/2007.07841).
+* Code: <https://github.com/pltrdy/autoalign>
+* **Cite the paper**: 
+```bib
+@inproceedings{Tardy2020,
+author = {Tardy, Paul and Janiszek, David and Est{\`{e}}ve, Yannick and Nguyen, Vincent},
+booktitle = {Proceedings of the 12th Conference on Language Resources and Evaluation (LREC 2020)}, 
+keywords = {Alignment,Corpus Annotation,Summarization},
+pages = {6718--6724},
+title = {{Align then Summarize: Automatic Alignment Methods for Summarization Corpus Creation}},
+year = {2020}
+}
+```
 
 
 ## Getting started
